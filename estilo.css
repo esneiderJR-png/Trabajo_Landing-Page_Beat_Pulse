@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Barra de navegación */
+nav {
+    background-color: #0057FF;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+/* Encabezado */
+header {
+    background-color: #0057FF;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Secciones */
+section {
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Eventos */
+.evento {
+    border: 1px solid #0057FF;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.evento h2 {
+    color: #0057FF;
+}
+
+/* Galería */
+.galeria {
+    text-align: center;
+}
+
+.imagenes img {
+    width: 200px;
+    height: 150px;
+    margin: 5px;
+}
+
+/* Formulario */
+form {
+    width: 300px;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 2px solid #0057FF;
+}
+
+/* Botón */
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #FFD600;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
